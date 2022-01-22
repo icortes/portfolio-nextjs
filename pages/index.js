@@ -3,7 +3,8 @@ import AppBar from '../components/AppBar';
 import AboutMe from '../components/AboutMe';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
-import Resume from '../components/Resume'
+import Resume from '../components/Resume';
+import Footer from '../components/Footer';
 import { Box, Container, Grid, Paper } from '@mui/material';
 import projects from '../db/projects.json';
 import proficiencies from '../db/proficiencies.json';
@@ -35,6 +36,7 @@ export default function Home(props) {
           <Resume proficiencies={proficiencies}/>
         </Container>
       </Grid>
+      <Footer />
     </Paper>
   );
 }
