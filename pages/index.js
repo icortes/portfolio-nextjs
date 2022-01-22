@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import AppBar from '../components/AppBar';
 import AboutMe from '../components/AboutMe';
-import { Box, Container, Grid, Paper } from '@mui/material';
 import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
+import { Box, Container, Grid, Paper } from '@mui/material';
 import projects from '../db/projects.json';
 import proficiencies from '../db/proficiencies.json';
 
@@ -29,6 +30,7 @@ export default function Home(props) {
         <Container maxWidth='md'>
           <AboutMe />
           <Portfolio projects={projects} />
+          <Contact />
         </Container>
       </Grid>
     </Paper>
