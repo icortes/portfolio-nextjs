@@ -11,7 +11,7 @@ This is a recreation of my portfolio using Next.js.
 
 ## Deployed Link
 
-* [See Live Site](https://icortes.github.io/)
+* [See Live Site](https://portfolio.isaaccortes.com/)
 
 
 ## Authors
