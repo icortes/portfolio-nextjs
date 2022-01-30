@@ -8,8 +8,8 @@ export default function Footer() {
     flexShrink: 0,
     textAlign: 'center',
     width: '100%',
-    marginTop: '10px',
-    marginBottom: '10px',
+    paddingTop: '30px',
+    paddingBottom: '40px',
   };
 
   const icon = {
@@ -20,19 +20,19 @@ export default function Footer() {
   return (
     <footer style={footer}>
       <Link href='https://github.com/icortes' target={'_blank'} style={icon}>
-        <GitHubIcon />
+        <GitHubIcon fontSize='large' />
       </Link>
       <Link
         href='https://www.linkedin.com/in/cortes-isaac/'
         target={'_blank'}
         style={icon}>
-        <LinkedInIcon />
+        <LinkedInIcon fontSize='large' />
       </Link>
       <Link
         href='https://www.instagram.com/omg_ixa/'
         target={'_blank'}
         style={icon}>
-        <InstagramIcon />
+        <InstagramIcon fontSize='large' />
       </Link>
     </footer>
   );
