@@ -17,7 +17,7 @@ export default function Home(props) {
       style={{ width: '100%', height: 'auto' }}
       square>
       <Head>
-        <title>Create Next App</title>
+        <title>Isaac Cortes Hernandez | Full-Stack Web Developer</title>
         <meta name='description' content='Isaac Cortes Hernandez, full-stack web developer portfolio' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
